@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{CD3B8753-FB2B-4C1C-A8F5-0CD92742C658}">
+	<children>
+		<child name="tanishq_record_test" key="{51DFDFF8-522E-4D45-A9E7-BEEE7F417442}" path="tanishq_record_test\tanishq_record_test.mds" />
+	</children>
+	<testItems key="{0FC1C9C9-86F6-418C-81FB-CD87308EA06F}">
+		<children>
+			<testItem key="{51DFDFF8-522E-4D45-A9E7-BEEE7F417442}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{1893264D-01F9-4880-A118-1F05F1DD9A95}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{CB5ACA21-A8C9-4CC3-B440-CF50971047A9}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="True" />
+	</extender>
+</Root>

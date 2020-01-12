@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{62050D07-BF77-44C1-AB8B-278EE2C273C1}"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="43773.700678287"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="TestComplete Chrome Extension Is Not Installed or Is Disabled"/>
+			<Prp name="remarks" type="S" value="The test engine does not have access to internal objects, methods and properties of the page open in Chrome. Check whether TestComplete Chrome Extension is installed and enabled. To install or enable the extension, you can open the following page in Chrome:&#xA;https://chrome.google.com/webstore/detail/smartbear-test-extension/gmhjclgpamdccpomoomknemhmmialaae"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 2">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="43773.701037037"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop test item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1()"/>
+			<Prp name="line no" type="I" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="43773.7010348958"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="message" type="S" value="Unable to navigate to the http://localhost:7486/Online%20Furniture%20Selling%20Website... page."/>
+			<Prp name="remarks" type="S" value="URL: http://localhost:7486/Online%20Furniture%20Selling%20Website/Home.aspx&#xA;Process ID: 8312&#xA;Process Command Line: &quot;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&quot; --flag-switches-begin --flag-switches-end&#xA;Info: Cannot find any existing or open blank page.&#xA;&#xA;Check whether TestComplete Chrome Extension is installed and enabled.&#xA;&#xA;Sys.Process(&quot;chrome&quot;)"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1()"/>
+			<Prp name="line no" type="I" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>
